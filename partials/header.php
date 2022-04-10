@@ -1,12 +1,14 @@
 <!-- ( Logo ) ====================================== -->
 
-<h1><a href="#">Blog</a></h1>
+<div id="brand">
+    <h1><a href="#">Blog</a></h1>
+</div>
 
 <!-- ( Navbar ) ====================================== -->
 
-<nav>
+<nav id="menu">
     <button>≡</button>
-    <ul>
+    <ul class="hidde">
         <li><a href="#">Home</a></li>
         <li><a href="#">Educação</a></li>
         <li><a href="#">Economia</a></li>
@@ -18,7 +20,7 @@
 
 <!-- ( Search ) ====================================== -->
 
-<form action="get">
+<form id="search" action="get">
     <label for="search">Search</label>
     <input type="text" id="search" name="search" placeholder="Search" />
     <button type="submit">search</button>

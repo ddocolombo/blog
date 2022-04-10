@@ -1,41 +1,28 @@
 <!-- Recent Posts -->
-<section>
-    <h2>Posts recents</h2>
+<section id="trend-content">
+    <h3>Trends</h3>
     <ul>
+        <?php for ($i = 0; $i < 10; $i++): ?>
         <li>
-            <p>
-            <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio repellat quisquam deserunt consequuntur
-            tempore earum sed esse est sit corrupti eos doloribus praesentium accusantium, neque, cum quia. Sequi, ex
-            neque?
-            </p>
+            <figure>               
+                <a href="#" class="badge" style="background: #<?php echo random_color() ?>;">Sports</a>
+                <img src="./storage/<?php echo urlencode(image()) ?>" alt="" />
+                <h2><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing eli</a></h2>
+            </figure>
+            
         </li>
-        <li>
-            <p>
-            <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio repellat quisquam deserunt consequuntur
-            tempore earum sed esse est sit corrupti eos doloribus praesentium accusantium, neque, cum quia. Sequi, ex
-            neque?
-            </p>
-        </li>
-        <li>
-            <p>
-            <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio repellat quisquam deserunt consequuntur
-            tempore earum sed esse est sit corrupti eos doloribus praesentium accusantium, neque, cum quia. Sequi, ex
-            neque?
-            </p>
-        </li>
+        <?php endfor ?>
     </ul>
 </section>
 
 <!-- Archive -->
-<section>
-    <h2>Arquivo</h2>
+<section id="hot-content">
+    <h3>Hot</h3>
     <ul>
-        <li><a href="#">Janeiro <span>05</span></a></li>
-        <li><a href="#">Fevereiro <span>08</span></a></li>
-        <li><a href="#">Março <span>15</span></a></li>
-        <li><a href="#">Abril <span>04</span></a></li>
+        <?php for ($i = 0; $i < 10; $i++): ?>
+        <li>
+            <h2><a href="#">Eio repellat quisquam deserunt consequuntur tempore earum</a></h2>
+        </li>
+        <?php endfor ?>
     </ul>
 </section>

@@ -1,1 +1,9 @@
 @import url('reset.css');
+
+.hidde { display: none; }
+.show { display: block; }
+
+ul > li > a, 
+ol > li > a {
+    display: block;
+}

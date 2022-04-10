@@ -1,0 +1,147 @@
+/* ========================= Logo ========================= */
+
+div#brand {
+    display: grid;
+    place-items: center;
+}
+
+div#brand > h1 {
+    background: url('../images/logo.png') no-repeat center left;
+    background-size: 150px;
+    width: 150px;
+    text-indent: -9000px;
+}
+
+div#brand > h1 > a {
+    display: block;
+    height: 80px;
+}
+
+/* ========================= Menu Hamburger ========================= */
+
+nav#menu {
+    position: absolute;
+    z-index: 9000;
+    width: 100%;
+}
+
+nav#menu ul {
+    background: var(--color3);
+    height: 100vh;
+}
+
+nav#menu ul li {
+    border-bottom: 1px dotted #000;
+}
+
+nav#menu ul li:hover { background-color: var(--color2);}
+
+nav#menu ul li a {
+
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+nav#menu button {
+    padding: 5px 10px 5px 10px;
+    background-color: var(--color3);
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 15px;
+    top: -62px;
+    cursor: pointer;
+}
+
+nav#menu button:hover { opacity: 0.8; }
+
+/* ========================= Search bar ========================= */
+
+form#search {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+form#search label, form#search button {
+    display: none;
+}
+
+form#search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+/* ========================= Trend ========================= */
+
+section#trend-content h2 {
+    height: var(--min-height-img);
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    margin-top: var(--min-height-negative-img);
+}
+
+section#trend-content h2 a { 
+    background: linear-gradient(transparent, #000);
+    color: #fff;
+    opacity: 0.9;
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 25px;
+}
+
+section#trend-content img {
+    min-height: var(--min-height-img);
+}
+
+section#trend-content ul li {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+section#trend-content figure {
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+    display: grid;
+    place-items: top;
+    position: relative;
+}
+
+/* ========================= Hot ========================= */
+
+section#hot-content h2 {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+section#hot-content > ul > li {
+    margin-bottom: 20px;
+}
+
+section#hot-content a {
+    text-decoration: underline;
+}
+
+/* ========================= Main content ========================= */
+
+div#content {
+    padding-top: 55px;
+}
+
+div#content .badge {
+    position: absolute;
+    margin-top: -43px;   
+}
+
+/* ========================= badge ========================= */
+
+
