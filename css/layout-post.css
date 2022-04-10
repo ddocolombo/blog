@@ -12,109 +12,107 @@
         grid-column: span 3;
     }
 
-    section#post > div#content > aside > ul.publicity > li > a > img {
-        width: 100%;
-    }
-
-    section#post article > ul#fonte {
-        border: 1px solid #eee;
-        padding: 10px;
-    }
-
-    section#post article > ul#fonte li {
-        border-bottom: 1px solid #eee;
-        padding-bottom: 10px;
-        margin-bottom: 10px;
-    }
-
-    section#post article > ul#fonte li:last-child {
-        border: none;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-
-    section#post article h1 { 
-        font-size: 30px;
-        text-align: center; 
-        margin-bottom: 50px;
-    }
-
-    section#post article h2 { 
-        font-size: 20px;
-        margin-bottom: 25px;
-    }
-
-    section#post article p {
-        margin-bottom: 25px;
-        line-height: 35px;
-    }
-
-    section#post article img {
-        margin-bottom: 25px;
-    }
-
-    section#post article iframe {
-        width: 100%;
-        height: 315px;
-    }
-
-    section#post article div#content-creator {
-        background: #eee;
-        border: 1px solid gray;
-        margin-bottom: 25px;
-    }
-
-    section#post article div#content-creator > ul {
-        padding: 25px;
-    }
-
-    section#post article div#content-creator ul.social-media {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    section#post article div#content-creator ul.social-media li {
-        margin-right: 10px;
-    }
-
-    section#post article div#content-creator li.creator {
-        border-bottom: 1px dotted gray;
-        padding-bottom: 10px;
-        margin-bottom: 10px;
-    }
-
-    nav#topics h2 {
-        font-size: 15px;
-        margin-bottom: 15px;
-        color: var(--color-link);
-        text-transform: uppercase;
-    }
-
-    nav#topics ul li {
-        margin-bottom: 15px;
-    }
-
-    div#related-content, div#content form, div#comments {
-        background: linear-gradient(#eee, transparent);
-        padding: 25px;
-    }
-
-    div#related-content h3 {
-        text-align: left;
-    }
-
-    div#related-content h4 {
-        margin-bottom: 20px;
-    }
-
     div#related-content ul {
         display: grid;
         grid-template-columns: auto auto auto auto;
         gap: 25px;
-    }
-
-    div#related-content img {
-        height: var(--min-height-img);
-    }
+    }    
 }
 
+section#post > div#content > aside > ul.publicity > li > a > img {
+    width: 100%;
+}
+
+section#post article > ul#fonte {
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+section#post article > ul#fonte li {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+section#post article > ul#fonte li:last-child {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+section#post article h1 { 
+    font-size: 30px;
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+section#post article h2 { 
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+section#post article p {
+    margin-bottom: 25px;
+    line-height: 35px;
+}
+
+section#post > div#content > article > img {
+    margin-bottom: 25px;
+}
+
+section#post article iframe {
+    width: 100%;
+    height: 315px;
+}
+
+section#post article div#content-creator {
+    background: #eee;
+    border: 1px solid gray;
+    margin-bottom: 25px;
+}
+
+section#post article div#content-creator > ul {
+    padding: 25px;
+}
+
+section#post article div#content-creator ul.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section#post article div#content-creator ul.social-media li {
+    margin-right: 10px;
+}
+
+section#post article div#content-creator li.creator {
+    border-bottom: 1px dotted gray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+nav#topics h2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: var(--color-link);
+    text-transform: uppercase;
+}
+
+nav#topics ul li {
+    margin-bottom: 15px;
+}
+
+div#related-content {
+    background: linear-gradient(#eee, transparent);
+    padding: 25px;
+}
+
+div#related-content h3 {
+    text-align: left;
+}
+
+/*div#related-content ul.post-list p { display: none; }*/
+
+div#post-related {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

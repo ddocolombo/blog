@@ -137,7 +137,7 @@ div#content {
     padding-top: 55px;
 }
 
-div#content .badge {
+ul.post-list .badge {
     position: absolute;
     margin-top: -43px;   
 }

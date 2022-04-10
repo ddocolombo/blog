@@ -1,0 +1,12 @@
+@media (min-width: 900px) {
+    section#search > div#content {
+        width: var(--container-width);
+        margin: 0 auto;
+    }
+    
+    section#search > div#content > ul.post-list {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 25px;
+    }
+}

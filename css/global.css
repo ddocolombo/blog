@@ -5,6 +5,8 @@
 @import url('layout-page.css');
 @import url('layout-home.css');
 @import url('layout-post.css');
+@import url('layout-category.css');
+@import url('layout-search.css');
 
 :root {
     --color1: yellow;
@@ -17,7 +19,7 @@
     --font3: 'Mitr', sans-serif;
     --font4: 'Work Sans', sans-serif;
 
-    --container-width: 70%;
+    --container-width: 85%;
 
     --min-height-img: 250px;
     --min-height-negative-img: -250px;
@@ -87,11 +89,8 @@ article {
     margin-bottom: 20px;
 }
 
-article img {
-    width: 100%;
+ul.post-list img {
     height: var(--min-height-img);
-    object-fit: cover;
-    object-position: top;
 }
 
 figure .badge {
